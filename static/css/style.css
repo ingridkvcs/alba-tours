@@ -5,11 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.logo-title {
-    font-family: 'Celtic Garamond the 2nd', sans-serif;
-    padding-left: 10px;
-}
-
 h2 {
     font-family: 'Celtic Garamond the 2nd', sans-serif;
     z-index: 0;
@@ -41,10 +36,6 @@ hr {
     object-fit: cover;
 }
 
-.popular-tours {
-
-}
-
 .about-us-img {
     height: 100vh;
     width: 100vw;
@@ -53,11 +44,6 @@ hr {
 .contact-us-img {
     height: 100vh;
     width: 100vw;
-}
-
-#search-bar {
-    padding-left: 20px;
-    padding-right: 10px;
 }
 
 #about-text-container {
@@ -78,22 +64,6 @@ hr {
     background: rgba(100, 100, 100, 0.2);
 }
 
-.fa-brands {
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-.fa-instagram{
-    color: #bc2a8d;
-}
-
-.fa-twitter{
-    color: #00acee;
-}
-
-.fa-facebook{
-    color: #4267b2;
-}
 
 #popular-tours-title{
     padding-bottom: 20px;
