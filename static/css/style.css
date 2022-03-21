@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-title {
+    font-family: 'Celtic Garamond the 2nd', sans-serif;
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: 'Celtic Garamond the 2nd', sans-serif;
+    z-index: 0;
+}
+
+h1 {
+    font-family: 'Celtic Garamond the 2nd', sans-serif;
+    z-index: 0;
+    font-size: xx-large;
+}
+
+.component {
+    padding-bottom: 20px;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.card {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+
+.card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.popular-tours {
+
+}
+
+.about-us-img {
+    height: 100vh;
+    width: 100vw;
+}
+
+.contact-us-img {
+    height: 100vh;
+    width: 100vw;
+}
+
+#search-bar {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#about-text-container {
+    position: absolute;
+    bottom: 45%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+#start-exploring {
+    color: white;
+    border-color: white;
+}
+
+#start-exploring:hover{
+    background: rgba(100, 100, 100, 0.2);
+}
