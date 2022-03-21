@@ -94,6 +94,8 @@
   </div>
 </div>
 
+<hr />
+
 <!--&lt;!&ndash; Select Tour Option &ndash;&gt;-->
 <!--<div id="select-tour" class="container component">-->
 <!--  <select class="form-select row" aria-label="Select Tour">-->
@@ -106,8 +108,6 @@
 <!--  </select>-->
 <!--</div>-->
 
-
-<!-- Date Picker -->
 
 <div id="about-scotland-container" class="container component">
   <div class="row">
@@ -126,7 +126,14 @@
   </div>
 </div>
 
+<hr />
+
 <div id="popular-tours-container" class="container component">
+  <div class="row">
+    <div class="col-6">
+      <h2 id="popular-tours-title">Popular Tours</h2>
+    </div>
+  </div>
   <div class="row">
     <div id="isleofskye" class="popular-tours col-3">
       <div class="card" style="width: 18rem;">
@@ -186,20 +193,29 @@
   </div>
 </div>
 
-<footer>
-  <!-- Newsletter -->
-  <form id="newsletter" class="form-group">
-    <label for="email-input">Subscribe to our Newsletter</label>
-    <input type="email" class="form-control" id="email-input" aria-describedby="email-info"
-           placeholder="Enter email">
-    <small id="email-info" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+<hr />
 
-  <div class="social">
-    <a href="#" class="fa-brands fa-instagram"></a>
-    <a href="#" class="fa-brands fa-twitter"></a>
-    <a href="#" class="fa-brands fa-facebook"></a>
+<footer class="container">
+  <div class="row">
+    <!-- Newsletter -->
+    <form id="newsletter" class="form-group col-6">
+      <label for="email-input"><h4>Subscribe to our Newsletter</h4></label>
+      <div class="row">
+        <div class="col-6">
+          <input type="email" class="form-control" id="email-input" aria-describedby="email-info"
+                 placeholder="Enter email">
+        </div>
+        <button type="submit" class="btn btn-primary col-3">Submit</button>
+      </div>
+      <small id="email-info" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </form>
+
+    <div class="social col-auto ms-auto">
+      <h4>Follow us on</h4>
+      <a href="#" class="fa-brands fa-3x fa-instagram"></a>
+      <a href="#" class="fa-brands fa-3x fa-twitter"></a>
+      <a href="#" class="fa-brands fa-3x  fa-facebook"></a>
+    </div>
   </div>
 </footer>
 <!-- region Scripts -->
