@@ -1,0 +1,8 @@
+#contact-us-img {
+    background-image: url("../img/contact-us.jpg");
+    background-position: center 50%;
+}
+
+.contact-us-title {
+    padding-left: 110px;
+}
