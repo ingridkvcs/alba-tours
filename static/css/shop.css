@@ -1,3 +1,8 @@
+#booking-accommodation-img {
+    background-image: url("../img/shop/shop-book.jpg");
+    background-position: center 85%;
+}
+
 .checked {
     color: orange;
 }
@@ -97,6 +102,9 @@
 
 .bookHead {
     padding: 20px;
-    background-color: darkslategray;
-    color: white;
+    color: black;
+}
+
+#start-booking{
+    padding-left:110px;
 }

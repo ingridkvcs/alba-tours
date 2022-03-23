@@ -1,3 +1,8 @@
+#accommodation-img{
+    background-image: url("../img/accommodation/hotel.jpg");
+    background-position: center 85%;
+
+
 .carwidth {
     width: 600px;
     height: 400px;
