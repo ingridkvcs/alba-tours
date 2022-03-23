@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 h2 {
     font-family: 'Celtic Garamond the 2nd', sans-serif;
     z-index: 0;
@@ -17,8 +18,10 @@ h1 {
 }
 
 hr {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .about-img {
@@ -37,13 +40,19 @@ hr {
 }
 
 .about-us-img {
+    background-image: url("../img/about-us-hiking-3.jpg");
+    background-size: cover;
+    background-position: center 85%;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
-}
+ }
 
 .contact-us-img {
+    background-image: url("../img/contact-us.jpg");
+    background-size: cover;
+    background-position: center 50%;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
 }
 
 #about-text-container {
@@ -65,6 +74,63 @@ hr {
 }
 
 
-#popular-tours-title{
+#popular-tours-title {
     padding-bottom: 20px;
+}
+
+.our-mission{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.clientphoto{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+
+#our-mission-learn-more{
+    color: white;
+    border-color: white;
+}
+
+.white-button{
+    text-decoration: none;
+    color: white;
+}
+
+.tour-img{
+    width: 100%;
+    height: 100vh;
+}
+
+.tours-main{
+    background-image: url("../img/tours/tours-main.jpg");
+    background-size: cover;
+    background-position: center 50%;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 200px;
+
+}
+
+#our-tours{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.contact-us-titles{
+    padding-left: 110px;
+}
+
+.message-box{
+
 }

@@ -1,9 +1,15 @@
 .logo-title {
     font-family: 'Celtic Garamond the 2nd', sans-serif;
     padding-left: 10px;
+    font-size: 25px;
 }
 
 #search-bar {
     padding-left: 20px;
     padding-right: 10px;
+}
+
+.navbar{
+    z-index:10;
+    background: rgba(0,0,0,0.4);
 }
