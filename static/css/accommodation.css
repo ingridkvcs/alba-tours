@@ -1,10 +1,19 @@
-#accommodation-img{
+#accommodation-img {
     background-image: url("../img/accommodation/hotel.jpg");
     background-position: center 85%;
-
+}
 
 .carwidth {
     width: 600px;
     height: 400px;
     margin: 0 auto;
+}
+
+#accommodation-text {
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
